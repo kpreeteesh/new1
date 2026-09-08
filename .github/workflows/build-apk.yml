@@ -20,8 +20,9 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@v4
         with:
-          distribution: temurin
-          java-version: 21
+          distribution: 'temurin'
+          java-version: '17'
+          cache: 'gradle'
 
       - name: Install dependencies
         run: npm install
