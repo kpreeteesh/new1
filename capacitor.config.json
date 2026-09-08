@@ -1,0 +1,8 @@
+{
+  "appId": "com.example.photoexcel",
+  "appName": "Photo Excel Sheet",
+  "webDir": "www",
+  "android": {
+    "backgroundColor": "#f4f6f8"
+  }
+}
